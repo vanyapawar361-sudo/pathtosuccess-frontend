@@ -1,0 +1,35 @@
+.home {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  color: white;
+}
+
+.home h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.card h3 {
+  margin-bottom: 6px;
+}
+
+.card a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+

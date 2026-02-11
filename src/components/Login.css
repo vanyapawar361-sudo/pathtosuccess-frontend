@@ -1,0 +1,73 @@
+/* Login.css */
+
+/* Full screen login background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Background image */
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/Users/Vanya.Pawar/pathtosuccess/studio-ghibli-scenery-of-water-reflection-ph2betefbt787fhy.jpg"); /* path relative to Login.css */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+}
+
+/* Heading and subtitle */
+.login-container h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+/* Form styling */
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent form background */
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.login-container input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.login-container button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #22c55e;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #16a34a;
+}
+

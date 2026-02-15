@@ -13,7 +13,7 @@
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
     ),
-    url("./studio-ghibli-scenery-of-water-reflection-ph2betefbt787fhy.jpg"); /* path relative to Login.css */
+    url("/studio-ghibli-scenery-of-water-reflection-ph2betefbt787fhy.jpg"); /* path relative to Login.css */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

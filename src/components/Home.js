@@ -3,7 +3,7 @@ import handpickedData from "../data/handpicked";
 import noteTakingApps from "./noteTakingApps";
 import StudyPlanner from "./StudyPlanner";
 import PomodoroTimer from "./PomodoroTimer";
-import Events from "./Events";
+
 
 function Home() {
   const [handpicked, setHandpicked] = useState([]);

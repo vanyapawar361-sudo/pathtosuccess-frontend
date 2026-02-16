@@ -120,7 +120,7 @@ const deleteResource = async (id) => {
   const completedCount = resources.filter(r =>
     completed.includes(r._id)
   ).length;
-  const progress = totalResources === 0 ? 0 : Math.round((completedCount / totalResources) * 100);
+  //const progress = totalResources === 0 ? 0 : Math.round((completedCount / totalResources) * 100);
 
   // LOGIN
   if (!loggedIn) {
@@ -171,7 +171,7 @@ const deleteResource = async (id) => {
 
         <div className="cards">
           {resources.map(r => {
-            const isSaved = saved.includes(r._id);
+            //const isSaved = saved.includes(r._id);
             const isCompleted = completed.includes(r._id);
 
             return (

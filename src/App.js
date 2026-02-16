@@ -116,10 +116,10 @@ const deleteResource = async (id) => {
 
 
   // PROGRESS
-  const totalResources = resources.length;
-  const completedCount = resources.filter(r =>
-    completed.includes(r._id)
-  ).length;
+  //const totalResources = resources.length;
+ // const completedCount = resources.filter(r =>
+    //completed.includes(r._id)
+  //).length;
   //const progress = totalResources === 0 ? 0 : Math.round((completedCount / totalResources) * 100);
 
   // LOGIN
